@@ -11,7 +11,6 @@ Steps for Software Modularization
 Extracting Dependency Graphs:
 
 Use tools such as Understand or NDepend to analyze the source code and extract the dependency graph of the software system.
-
 These tools will generate a visual representation of how different parts of the code are interrelated.
 Clustering the Dependency Graph:
 
