@@ -12,18 +12,19 @@ Steps for Software Modularization
 
 Use tools such as Understand or NDepend to analyze the source code and extract the dependency graph of the software system.
 These tools will generate a visual representation of how different parts of the code are interrelated.
-Clustering the Dependency Graph:
+
+2- Clustering the Dependency Graph:
 
 Input the extracted dependency graph into a clustering algorithm.
 The algorithm will process the graph and group related code artifacts into clusters (modules).
 
-2- Evaluating the Clusters:
+3- Evaluating the Clusters:
 
 Evaluate the generated clusters using internal and external clustering metrics.
 Internal metrics assess the cohesiveness within clusters and the separation between clusters.
 External metrics compare the generated clusters to a known ground truth or expert modularizations.
 
-3- Visualizing the Clusters:
+4- Visualizing the Clusters:
 
 Use graph visualization tools to display the resulting clusters for developers.
 These visualizations help developers understand the modular structure and dependencies within the code.
